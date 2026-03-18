@@ -43,6 +43,7 @@ ventana_login.title("Acceso a la aplicación")
 ventana_login.geometry("300x200")
 
 tk.Label(ventana_login, text="Aplicación Nómina Empleados").pack(pady=10)
+tk.Label(ventana_login, text="Harvey Alexander Contreras Gonzalez").pack(pady=10)
 tk.Label(ventana_login, text="Ingrese contraseña").pack()
 
 entrada_password = tk.Entry(ventana_login, show="*")
